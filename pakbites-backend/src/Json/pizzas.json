@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Margherita Pizza",
+    "price": 650,
+    "rating": 4.3,
+    "category": "Pizzas",
+    "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TWFyZ2hlcml0YSUyMFBpenphfGVufDB8fDB8fHww"
+  },
+  {
+    "name": "Chicken Tikka Pizza",
+    "price": 850,
+    "rating": 4.6,
+    "category": "Pizzas",
+    "image": "https://plus.unsplash.com/premium_photo-1672498268734-0f41e888298d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Q2hpY2tlbiUyMFRpa2thJTIwUGl6emF8ZW58MHx8MHx8fDA%3D"
+  },
+  {
+    "name": "Fajita Pizza",
+    "price": 820,
+    "rating": 4.5,
+    "category": "Pizzas",
+    "image": "https://images.unsplash.com/photo-1662043591509-25e91fc3e2a1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fEZhaml0YSUyMFBpenphfGVufDB8fDB8fHww"
+  },
+  {
+    "name": "Pepperoni Pizza",
+    "price": 900,
+    "rating": 4.7,
+    "category": "Pizzas",
+    "image": "https://images.unsplash.com/photo-1609795829951-325b91a41471?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fFBlcHBlcm9uaSUyMFBpenphfGVufDB8fDB8fHww"
+  },
+  {
+    "name": "Malai Boti Pizza",
+    "price": 880,
+    "rating": 4.4,
+    "category": "Pizzas",
+    "image": "https://images.unsplash.com/photo-1560433684-6dc95b4c00c2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TWFsYWklMjBCb3RpJTIwUGl6emF8ZW58MHx8MHx8fDA%3D"
+  },
+  {
+    "name": "BBQ Chicken Pizza",
+    "price": 890,
+    "rating": 4.6,
+    "category": "Pizzas",
+    "image": "https://images.unsplash.com/photo-1655471264183-068c91041ba5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8QkJRJTIwQ2hpY2tlbiUyMFBpenphfGVufDB8fDB8fHww"
+  },
+  {
+    "name": "Cheese Lovers Pizza",
+    "price": 780,
+    "rating": 4.5,
+    "category": "Pizzas",
+    "image": "https://images.unsplash.com/photo-1651978595416-9956a5fb8f7a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fENoZWVzZSUyMExvdmVycyUyMFBpenphfGVufDB8fDB8fHww"
+  },
+  {
+    "name": "Veggie Pizza",
+    "price": 740,
+    "rating": 4.2,
+    "category": "Pizzas",
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8VmVnZ2llJTIwUGl6emF8ZW58MHx8MHx8fDA%3D"
+  },
+  {
+    "name": "Hawaiian Pizza",
+    "price": 870,
+    "rating": 4.1,
+    "category": "Pizzas",
+    "image": "https://plus.unsplash.com/premium_photo-1701273292611-0420b81c5ff0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fEhhd2FpaWFuJTIwUGl6emF8ZW58MHx8MHx8fDA%3D"
+  },
+  {
+    "name": "Ranch Supreme Pizza",
+    "price": 910,
+    "rating": 4.6,
+    "category": "Pizzas",
+    "image": "https://images.unsplash.com/photo-1642789736327-14d9c36496d7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fFJhbmNoJTIwU3VwcmVtZSUyMFBpenphfGVufDB8fDB8fHww"
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Zinger Burger",
+    "category": "Burgers",
+    "price": 480,
+    "rating": 4.8,
+     "image": "https://plus.unsplash.com/premium_photo-1683619761492-639240d29bb5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8emluZ2VyJTIwQnVyZ2VyfGVufDB8fDB8fHww"
+  },
+  {
+    "name": "Loaded Fries",
+    "category": "Fries",
+    "price": 320,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1485962398705-ef6a13c41e8f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8TG9hZGVkJTIwRnJpZXN8ZW58MHx8MHx8fDA%3D"
+  },
+  {
+    "name": "BBQ Chicken Pizza",
+    "category": "Pizzas",
+    "price": 899,
+    "rating": 4.8,
+   "image": "https://images.unsplash.com/photo-1655471264183-068c91041ba5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8QkJRJTIwQ2hpY2tlbiUyMFBpenphfGVufDB8fDB8fHww"
+ },
+  {
+    "name": "Crispy Fried Chicken",
+    "category": "Fried Chicken",
+    "price": 450,
+    "rating": 4.7,
+     "image": "https://images.unsplash.com/photo-1672856399624-61b47d70d339?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Q3Jpc3B5JTIwRnJpZWQlMjBDaGlja2VufGVufDB8fDB8fHww"
+ },
+  {
+    "name": "Club Sandwich",
+    "category": "Sandwiches",
+    "price": 420,
+    "rating": 4.6,
+    "image": "https://plus.unsplash.com/premium_photo-1673809798692-494b974088a4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Q2x1YiUyMFNhbmR3aWNofGVufDB8fDB8fHww"
+ },
+  {
+    "name": "Alfredo Pasta",
+    "category": "Pastas",
+    "price": 600,
+    "rating": 4.7,
+     "image": "https://images.unsplash.com/photo-1662197480393-2a82030b7b83?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8QWxmcmVkbyUyMFBhc3RhfGVufDB8fDB8fHww"
+   },
+  {
+    "name": "Chocolate Lava Cake",
+    "category": "Desserts",
+    "price": 350,
+    "rating": 4.9,
+   "image": "https://images.unsplash.com/photo-1673551490243-f29547426841?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Q2hvY29sYXRlJTIwTGF2YSUyMENha2V8ZW58MHx8MHx8fDA%3D"
+  },
+  {
+    "name": "Mango Smoothie",
+    "category": "Drink",
+    "price": 250,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1653542773369-51cce8d08250?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8TWFuZ28lMjBTbW9vdGhpZXxlbnwwfHwwfHx8MA%3D%3D"
+    },
+  {
+    "name": "Chicken Popcorn",
+    "category": "Fries",
+    "price": 300,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1615435312366-2e4ae52255e9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Q2hpY2tlbiUyMFBvcGNvcm58ZW58MHx8MHx8fDA%3D"
+     },
+  {
+    "name": "Oreo Cheesecake",
+    "category": "Desserts",
+    "price": 500,
+    "rating": 4.8,
+     "image": "https://images.unsplash.com/photo-1600528155905-2b3f57498b43?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8T3JlbyUyMENoZWVzZWNha2V8ZW58MHx8MHx8fDA%3D"
+ },
+  {
+    "name": "Cold Coffee",
+    "category": "Drinks",
+    "price": 280,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1530373239216-42518e6b4063?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Q29sZCUyMENvZmZlZXxlbnwwfHwwfHx8MA%3D%3D"
+    }
+]

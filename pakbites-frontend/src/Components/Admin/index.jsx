@@ -1,0 +1,13 @@
+import Navbar from "./Navbar";
+import Dashboard from "./Dashboard";
+import Orders from "./Orders";
+import Products from "./Products";
+import Reviews from "./Reviews";
+import Settings from "./Settings";
+import Users from "./Users";
+import Carts from "./Carts";
+import Sales from "./Sales";
+import Editproducts from "./Editproducts";
+import Addproducts from "./Addproducts";
+import Admin from "./Admin";
+export{Navbar,Dashboard,Orders,Products,Reviews,Settings,Users,Carts,Sales,Editproducts,Addproducts,Admin};

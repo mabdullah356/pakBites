@@ -1,0 +1,122 @@
+[
+  {
+    "dealNo": 1,
+    "name": "Black Deal",
+    "image": "https://plus.unsplash.com/premium_photo-1695558759174-1d78171cbdd0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8WmluZ2VyJTIwQnVyZ2VyJTIwJTJCJTIwRnJpZXMlMjAlMkIlMjBEcmlua3xlbnwwfHwwfHx8MA%3D%3D",
+    "totalItems": 3,
+    "items": [" Zinger Burger +", " Fries +", " Drink"],
+    "price": 700
+  },
+  {
+    "dealNo": 2,
+    "name": "Snack Attack",
+    "image": "https://images.unsplash.com/photo-1495753379358-73c76ccd644b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fENoaWNrZW4lMjBTaGF3YXJtYSUyMCUyQiUyMEZyaWVzJTIwJTJCJTIwRHJpbmslMjAlMkIlMjBDaG9jbyUyMERvbnV0fGVufDB8fDB8fHww",
+    "totalItems": 4,
+    "items": [" Chicken Shawarma +", " Fries +", " Drink +", " Choco Donut"],
+    "price": 850
+  },
+  {
+    "dealNo": 3,
+    "name": "Double Zinger Combo",
+    "image": "https://images.unsplash.com/photo-1698281964068-be15d9e587bc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8WmluZ2VyJTIwQnVyZ2VyJTIweDIlMjAlMkIlMjBMYXJnZSUyMEZyaWVzJTIwJTJCJTIwQ29sZCUyMERyaW5rfGVufDB8fDB8fHww",
+    "totalItems": 4,
+    "items": [" Zinger Burger x2 +", " Large Fries +", " Cold Drink"],
+    "price": 1100
+  },
+  {
+    "dealNo": 4,
+    "name": "Midnight Craving Box",
+    "image": "https://images.unsplash.com/photo-1657934787560-cbecc866430a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGZhc3QlMjBmb29kJTIwZGVhbHN8ZW58MHx8MHx8fDA%3D",
+    "totalItems": 5,
+    "items": [" Club Sandwich +", " Loaded Fries +", " Drink +", " Wings +", " Brownie"],
+    "price": 1250
+  },
+  {
+    "dealNo": 5,
+    "name": "Family Bites Deal",
+    "image": "https://images.unsplash.com/photo-1700514015106-4d8480938dcb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D",
+    "totalItems": 6,
+    "items": [" Large Pizza +", " Zinger Burger +", " Wings +", " Garlic Bread +", " Drink +", " Ice Cream Cup"],
+    "price": 1600
+  },
+  {
+    "dealNo": 6,
+    "name": "Chicken Feast",
+    "image": "https://images.unsplash.com/photo-1576866206724-c696f4c9fa06?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE3fHx8ZW58MHx8fHx8",
+    "totalItems": 5,
+    "items": [" Crispy Chicken x2 +", " Fries +", " Drink +", " Nuggets x6"],
+    "price": 1750
+  },
+  {
+    "dealNo": 7,
+    "name": "Pizza Mania",
+    "image": "https://images.unsplash.com/photo-1652862730506-4fbc283ed08d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDIzfHx8ZW58MHx8fHx8",
+    "totalItems": 4,
+    "items": [" Medium BBQ Pizza +", " Garlic Bread +", " Drink +", " Choco Lava Cake"],
+    "price": 1900
+  },
+  {
+    "dealNo": 8,
+    "name": "Desi Delight",
+    "image": "https://images.unsplash.com/photo-1581299267583-f8b675bd3029?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDQ1fHx8ZW58MHx8fHx8",
+    "totalItems": 6,
+    "items": [" Chicken Malai Roll +", " Peri Peri Roll +", " Fries +", " Mint Raita +", " Drink +", " Kulfi"],
+    "price": 2000
+  },
+  {
+    "dealNo": 9,
+    "name": "Burger Bomb",
+    "image": "https://plus.unsplash.com/premium_photo-1679072595330-67c13052bd1c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDQ4fHx8ZW58MHx8fHx8",
+    "totalItems": 5,
+    "items": [" Zinger Burger x2 +", " Club Sandwich +", " Large Fries +", " Drink"],
+    "price": 2200
+  },
+  {
+    "dealNo": 10,
+    "name": "Loaded Box",
+    "image": "https://images.unsplash.com/photo-1584440772680-63bec399984b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDcyfHx8ZW58MHx8fHx8",
+    "totalItems": 6,
+    "items": [" Fried Chicken x2 +", " Pizza Slice x2 +", " Pasta Bowl +", " Drink"],
+    "price": 2500
+  },
+  {
+    "dealNo": 11,
+    "name": "Couple Meal",
+    "image": "https://plus.unsplash.com/premium_photo-1679591002610-fe4740be64e6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEyfHx8ZW58MHx8fHx8",
+    "totalItems": 6,
+    "items": [" 2 Zinger Burgers +", " 2 Drinks +", " Loaded Fries +", " Brownie"],
+    "price": 2700
+  },
+  {
+    "dealNo": 12,
+    "name": "Mega Platter",
+    "image": "https://images.unsplash.com/photo-1576866206930-9c7e5fe27e3e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE3fHx8ZW58MHx8fHx8",
+    "totalItems": 8,
+    "items": [" Pizza +", " Burger +", " Roll +", " Fries +", " Wings +", " Pasta +", " Drink +", " Dessert"],
+    "price": 3000
+  },
+  {
+    "dealNo": 13,
+    "name": "Feast For Four",
+    "image": "https://images.unsplash.com/photo-1737012199412-ccf6a9270a5b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fHw%3D",
+    "totalItems": 10,
+    "items": [" 4 Burgers +", " 2 Pizzas +", " 2 Large Fries +", " 4 Drinks +", " 4 Desserts"],
+    "price": 4000
+  },
+  {
+    "dealNo": 14,
+    "name": "Friends & Family Deal",
+    "image": "https://images.unsplash.com/photo-1652862730746-93fcd0da61ae?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEzfHx8ZW58MHx8fHx8",
+    "totalItems": 12,
+    "items": [" 3 Zingers +", " 2 Shawarmas +", " 2 Rolls +", " 2 Fries +", " 4 Drinks +", " Dessert Platter"],
+    "price": 4800
+  },
+  {
+    "dealNo": 15,
+    "name": "Royal Party Box",
+    "image": "https://images.unsplash.com/photo-1689793603787-206c96416793?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fHw%3D",
+    "totalItems": 14,
+    "items": [" 4 Zingers +", " 2 Pizzas +", " 2 Sandwiches +", " 4 Fries +", " 4 Drinks +", " Dessert Tray"],
+    "price": 5500
+  }
+]
