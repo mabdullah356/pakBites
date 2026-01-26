@@ -1,10 +1,10 @@
-# 🍔 PakBites - Modern Food Ordering Platform
+#  PakBites - Modern Food Ordering Platform
 
 PakBites is a production-level, full-stack (MERN) web application designed for a premium food ordering experience, similar to industry leaders like Pizza Hut or Hardee's. It features a sleek, responsive interface, robust administrative controls, and a secure checkout flow.
 
 ---
 
-## 🚀 Project Overview
+##  Project Overview
 
 PakBites is built using the **MERN stack** (MongoDB, Express, React, Node.js) with a focus on high performance, secure authentication, and seamless user experience. It supports role-based access control, real-time email notifications, and cloud-based asset management.
 
@@ -16,7 +16,7 @@ PakBites is built using the **MERN stack** (MongoDB, Express, React, Node.js) wi
 
 ---
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 ### Backend (Server-Side)
 - **Runtime**: Node.js
@@ -39,7 +39,7 @@ PakBites is built using the **MERN stack** (MongoDB, Express, React, Node.js) wi
 
 ---
 
-## 📦 Project Structure
+##  Project Structure
 
 ```bash
 pakbites/
@@ -65,9 +65,9 @@ pakbites/
 
 ---
 
-## ✨ Features
+##  Features
 
-### 👤 For Users:
+###  For Users:
 - **Registration & Verification**: Secure signup with OTP verification sent via email.
 - **Menu Exploration**: Browse items by category (Burgers, Pizzas, Deals, etc.) with real-time searching.
 - **Flexible Cart**: Manage selections in a persistent local-storage cart.
@@ -75,7 +75,7 @@ pakbites/
 - **Order History**: View current order status and past purchases.
 - **Feedback System**: Submit reviews and ratings for food items.
 
-### 🛡️ For Admins:
+###  For Admins:
 - **Sales Analytics**: Real-time sales tracking and revenue summaries.
 - **Product Management**: Full CRUD operations for menu items including image uploads.
 - **Order Fulfillment**: Update order statuses (Processing, Delivered) and manage logs.
@@ -84,7 +84,7 @@ pakbites/
 
 ---
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 ### 1. Prerequisites:
 - Node.js (v18+)
@@ -125,14 +125,8 @@ Start the development server:
 ```bash
 npm run dev
 ```
-
----
-
-## 🛡️ License
-Distributed under the ISC License. See `LICENSE` for more information.
-
-## 👥 Authors
+## Authors
 - **M Abdullah** - *Lead Developer* 
 
 ---
-Developed with ❤️ by the PakBites Team.
+Made with ❤️ by Muhammad Abdullah.
