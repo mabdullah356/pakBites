@@ -72,7 +72,7 @@ module.exports.deleteProduct = async (req, res) => {
   try {
     const toDelete = await Product.findByIdAndDelete(id)
     if (!toDelete) {
-      return res.status(401).json({ message: "Product not found" })
+      return res.status(404).json({ message: "Product not found" })
     }
     return res.status(200).json({ message: "Product deleted successfully" })
 
@@ -104,7 +104,11 @@ module.exports.updateProductById = async (req, res) => {
   }
 
   try {
-    await Product.findByIdAndUpdate(id, { name, price, rating, image, totalItems, items }, { new: true });
+    const updated = await Product.findByIdAndUpdate(id, { name, price, rating, image, totalItems, items }, { new: true });
+
+    if (!updated) {
+      return res.status(404).json({ message: "Product not found" });
+    }
 
     return res.status(200).json({ message: "Product updated successfully" });
 
@@ -146,6 +150,9 @@ module.exports.createProduct = async (req, res) => {
 module.exports.getProductsByIds = async (req, res) => {
   const { ids } = req.body;
   try {
+    if (!ids || !Array.isArray(ids) || ids.length === 0) {
+      return res.status(400).json({ error: "Please provide an array of product IDs." });
+    }
     const products = await Product.find({ _id: { $in: ids } });
     res.json(products);
   } catch (error) {

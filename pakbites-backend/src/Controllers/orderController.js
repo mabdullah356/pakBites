@@ -20,7 +20,7 @@ module.exports.orderNow = async (req, res) => {
 
   try {
 
-    if (!items || items.length === 0 || !email || !fullName || !address || !city || !phoneNo) {
+    if (!items || items.length === 0 || !email || !fullName || !address || !city || !phoneNo || !postalCode) {
       return res.status(400).json({
         error: "Missing required fields. Please provide all necessary information.",
       });
