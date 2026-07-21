@@ -6,10 +6,10 @@ const {login, register, logout,verifyOtp, getProfile, getAllUsers, deleteUser, u
 router.post("/login", login);
 router.post("/register", register);
 router.post("/verify-otp", verifyOtp);
-router.get("/logout", isUserLogin,logout);
+router.get("/logout", isUserLogin, logout);
 router.get("/get-profile", isUserLogin, getProfile);
 router.get("/users", isAdminLogin, getAllUsers);
-router.delete("/:id", isAdminLogin, deleteUser);
 router.put("/:id", isAdminLogin, updateUser);
+router.delete("/:id", isAdminLogin, deleteUser);
 
 module.exports = router;

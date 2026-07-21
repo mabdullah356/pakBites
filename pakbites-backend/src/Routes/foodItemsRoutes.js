@@ -14,14 +14,13 @@ const {
 const { upload } = require("../Utils/cloudinary");
 const { isAdminLogin } = require("../Middlewares/authMiddleware");
 
-router.post("/save/all", isAdminLogin, saveAllProducts);
-router.get("/get/all", getAllProducts);
+router.get("/", getAllProducts);
+router.post("/seed", isAdminLogin, saveAllProducts);
+router.post("/batch", getProductsByIds);
+router.post("/", isAdminLogin, upload.single("image"), createProduct);
 router.get("/category/:category", getByCategory);
-router.delete("/:id", isAdminLogin, deleteProduct);
 router.get("/:id", getProductById);
-router.post("/getproductsbyids", getProductsByIds);
 router.put("/:id", isAdminLogin, upload.single("image"), updateProductById);
-router.post("/product", isAdminLogin, upload.single("image"), createProduct);
-
+router.delete("/:id", isAdminLogin, deleteProduct);
 
 module.exports = router;

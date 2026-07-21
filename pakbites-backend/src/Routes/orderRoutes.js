@@ -6,8 +6,8 @@ const {orderNow, getAllOrders, getMyOrders, deleteOrder, updateOrder, getTotalPr
 router.post("/order-now", isUserLogin, orderNow);
 router.get("/orders", isAdminLogin, getAllOrders);
 router.get("/get-my-orders", isUserLogin, getMyOrders);
-router.delete("/:id", isAdminLogin, deleteOrder);
-router.put("/:id", isAdminLogin, updateOrder);
 router.get("/get-total-product-quantity/:productName", isAdminLogin, getTotalProductQuantity);
+router.put("/:id", isAdminLogin, updateOrder);
+router.delete("/:id", isAdminLogin, deleteOrder);
 
 module.exports = router;
