@@ -116,7 +116,7 @@ function Header() {
             <Link to="/my-orders" onClick={() => setMenuOpen(false)} className=" py-2 px-3 rounded-lg ">
               My Orders
             </Link>
-            {isLogin && (
+            {isLogin && user?.role=="admin" && (
               <Link to="/admin/dashboard" onClick={() => setMenuOpen(false)} className=" py-2 px-3 rounded-lg ">
                 Admin Dashboard
               </Link>

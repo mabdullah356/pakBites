@@ -7,11 +7,12 @@ function generateToken(user, res) {
     process.env.JWT_SECRET,
     { expiresIn: process.env.EXPIRES_IN }
   );
+  const maxAgeMs = 3 * 24 * 60 * 60 * 1000;
   res.cookie("token", token, {
     httpOnly: true,  
-    secure: false,   
+    secure: process.env.NODE_ENV === "production",   
     sameSite: "strict",
-    maxAge: 60 * 60 * 1000 
+    maxAge: maxAgeMs
   });
   return token;
 }
