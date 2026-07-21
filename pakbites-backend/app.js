@@ -28,7 +28,6 @@ app.use((err, req, res, next) => {
   console.error("--- Global Error Triggered ---");
   console.error("Message:", err.message);
   console.error("Stack:", err.stack);
-  console.error("Full Error:", err);
 
   const status = err.status || 500;
   const message = err.message || "An internal server error occurred";
@@ -36,7 +35,6 @@ app.use((err, req, res, next) => {
   res.status(status).json({
     success: false,
     message: String(message),
-    error: typeof err === 'object' ? { ...err, message: err.message } : err
   });
 });
 
