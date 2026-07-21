@@ -27,7 +27,7 @@ export default function Contact() {
 
 
     try {
-      const res = await axios.post("/api/v1/feedback/feedback", userFeedback);
+      const res = await axios.post("/api/v1/feedback/", userFeedback);
       setUserFeedback({
         fullName: "",
         gmail: "",

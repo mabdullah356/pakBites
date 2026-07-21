@@ -17,7 +17,7 @@ function Cart() {
 
     if (cartIds.length > 0) {
       try {
-        const res = await axios.post("/api/v1/foodItems/getproductsbyids", { ids: cartIds });
+        const res = await axios.post("/api/v1/foodItems/batch", { ids: cartIds });
 
         // Map to match the expected structure
         const items = res.data.map(product => ({
