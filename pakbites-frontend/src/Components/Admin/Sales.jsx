@@ -46,7 +46,7 @@ function Sales() {
                   <td className="px-4 py-2 border">{i + 1}</td>
                   <td className="px-4 py-2 border">{item._id}</td>
                   <td className="px-4 py-2 border">{item?.email || <span className="text-gray-500 font-bold">Loading...</span>}</td>
-                  <td className="px-4 py-2 border">{item.quantity}</td>
+                  <td className="px-4 py-2 border">{item.items ? item.items.reduce((acc, i) => acc + (i.quantity || 0), 0) : 0}</td>
                   <td className="px-4 py-2 border">{item.totalAmount}</td>
                   <td className="px-4 py-2 border">{item.paymentMethod}</td>
                   <td className="px-4 py-2 border text-green-600 font-semibold">Completed</td>

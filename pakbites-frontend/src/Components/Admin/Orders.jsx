@@ -36,10 +36,12 @@ function Orders() {
   const updateHandler = async (id) => {
     try {
       const res = await axios.put(`/api/v1/order/${id}`, {}, { withCredentials: true });
+      const message = res.data.message || "";
+      const newStatus = message.includes("Delivered") ? "Delivered" : "Processing";
       setOrders(prev =>
         prev.map(order =>
           order._id === id
-            ? { ...order, orderStatus: "Delivered" }
+            ? { ...order, orderStatus: newStatus }
             : order
         )
       );
