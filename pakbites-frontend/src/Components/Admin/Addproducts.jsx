@@ -64,7 +64,7 @@ export default function Addproducts() {
     }
 
     try {
-      const res = await axios.post("/api/v1/foodItems/product", data, {
+      const res = await axios.post("/api/v1/foodItems/", data, {
         headers: { "Content-Type": "multipart/form-data" },
         withCredentials: true
       });

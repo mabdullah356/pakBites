@@ -10,7 +10,7 @@ function Products() {
 
   const fetchProduct = async () => {
     try {
-      const res = await axios.get("/api/v1/foodItems/get/all");
+      const res = await axios.get("/api/v1/foodItems/");
       setProducts(res.data.products || []);
     } catch (err) {
       console.error("Failed to fetch products:", err);

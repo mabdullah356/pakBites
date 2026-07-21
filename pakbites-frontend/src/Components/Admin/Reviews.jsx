@@ -8,7 +8,7 @@ function Reviews() {
 
   const fetchfeedback = async () => {
     try {
-      const res = await axios.get("/api/v1/feedback/feedbacks", { withCredentials: true });
+      const res = await axios.get("/api/v1/feedback/", { withCredentials: true });
       setFeedbacks(res.data.feedbacks || []);
     } catch (err) {
 

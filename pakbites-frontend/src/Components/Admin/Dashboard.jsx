@@ -36,7 +36,7 @@ function Dashboard() {
 
   const fetchProduct = async () => {
     try {
-      const res = await axios.get("/api/v1/foodItems/get/all");
+      const res = await axios.get("/api/v1/foodItems/");
       setProducts(res.data.products || []);
     } catch (err) {
       const errorMsg = err.response?.data?.message || err.response?.data?.error || err.response?.data?.Error || err.message;
@@ -65,7 +65,7 @@ function Dashboard() {
 
   const fetchfeedback = async () => {
     try {
-      const res = await axios.get("/api/v1/feedback/feedbacks", { withCredentials: true });
+      const res = await axios.get("/api/v1/feedback/", { withCredentials: true });
       setFeedbacks(res.data.feedbacks || []);
     } catch (err) {
       const errorMsg = err.response?.data?.message || err.response?.data?.error || err.response?.data?.Error || err.message;
