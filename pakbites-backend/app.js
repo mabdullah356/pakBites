@@ -11,7 +11,7 @@ app.use(cors({
 app.use(cookieParser());
 
 //health route
-app.get("/health",()=>{
+app.get("/health",(req, res)=>{
   return res.status(200).json({
     status: "success",
     message: "Server is healthy and running"
