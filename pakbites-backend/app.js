@@ -10,6 +10,14 @@ app.use(cors({
 }));
 app.use(cookieParser());
 
+//health route
+app.get("/health",()=>{
+  return res.status(200).json({
+    status: "success",
+    message: "Server is healthy and running"
+  })
+})
+
 //importing all routes--
 const userRoutes = require("./src/Routes/userRoutes");
 const foodItemRoutes = require("./src/Routes/foodItemsRoutes");
