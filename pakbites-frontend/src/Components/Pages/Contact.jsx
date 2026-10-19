@@ -44,17 +44,17 @@ export default function Contact() {
     {
       icon: FaPhone,
       title: "Phone",
-      desc: "+92 300 1112233",
+      desc: "+92 315 6215289",
     },
     {
       icon: FaEnvelope,
       title: "Email",
-      desc: "support@pakbites.pk",
+      desc: "abdullahworld111@gmail.com",
     },
     {
       icon: FaMapMarkerAlt,
       title: "Location",
-      desc: "Gulberg III, Lahore, Pakistan",
+      desc: "NUML UNIVERSITY FSD , JARAWALA ROAD",
     },
   ];
 
@@ -181,7 +181,7 @@ export default function Contact() {
               <div className="rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <iframe
                   title="PakBites Location"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13601.891661985053!2d74.3436!3d31.5204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391905e86fffae0f%3A0x25c7c5f5f83e3f7e!2sGulberg%20III%2C%20Lahore%2C%20Pakistan!5e0!3m2!1sen!2s!4v1719234567890!5m2!1sen!2s"
+                  src="https://maps.google.com/maps?ll=31.395956,73.158714&z=16&t=m&hl=en-GB&gl=US&mapclient=embed&cid=4105561865680071887"
                   width="100%"
                   height="300"
                   className="sm:h-80 lg:h-96 xl:h-[400px]"
