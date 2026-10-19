@@ -5,7 +5,7 @@ const cors = require("cors");
 
 app.use(express.json());
 app.use(cors({
-  origin: 'https://pak-bites.vercel.app/',
+  origin: 'https://pak-bites.vercel.app',
   credentials: true
 }));
 app.use(cookieParser());
