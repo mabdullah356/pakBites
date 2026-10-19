@@ -5,7 +5,7 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   server:{
     proxy:{
-      "/api":"http://localhost:3000"
+      "/api":"https://pak-bites-api.vercel.app/"
     }
   },
   plugins: [
