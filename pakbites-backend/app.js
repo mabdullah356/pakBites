@@ -18,12 +18,21 @@ app.get("/health",(req, res)=>{
   })
 })
 
+const connectDB = require("./src/Utils/connectDb");
+const { ensureDbConnected } = connectDB;
+
+connectDB().catch((error) => {
+  console.error("Database connection failed:", error.message);
+});
+
 //importing all routes--
 const userRoutes = require("./src/Routes/userRoutes");
 const foodItemRoutes = require("./src/Routes/foodItemsRoutes");
 const orderRoutes = require("./src/Routes/orderRoutes");
 const userFeedbackRoutes = require("./src/Routes/feedbackRoutes");
 const salesRoutes = require("./src/Routes/salesRoute");
+
+app.use(ensureDbConnected);
 
 app.use("/api/v1/foodItems", foodItemRoutes);
 app.use("/api/v1/user", userRoutes);
